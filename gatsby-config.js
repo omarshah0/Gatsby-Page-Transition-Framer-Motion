@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/Gatsby-Page-Transition-Framer-Motion",
   siteMetadata: {
     title: `Framer Motion Page Transition`,
     description: `Page Transition with Framer Motion`,
