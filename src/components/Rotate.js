@@ -1,14 +1,16 @@
-import React from "react"
+import React, { useState } from "react"
 import { motion, useMotionValue, useSpring } from "framer-motion"
 
 function Rotate() {
   const x = useMotionValue(0)
   const spring = useSpring(x, { damping: 100 })
 
-  window.addEventListener("scroll", () => {
-    x.set(window.scrollY)
-    window.removeEventListener("scroll", () => {})
-  })
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      x.set(window.scrollY)
+      window.removeEventListener("scroll", () => {})
+    })
+  }, [input])
 
   return (
     <div>
