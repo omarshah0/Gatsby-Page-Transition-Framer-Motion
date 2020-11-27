@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import { motion } from "framer-motion"
+import "../components/layout.css"
 
 function Product2({ location }) {
   const duration = 0.5
