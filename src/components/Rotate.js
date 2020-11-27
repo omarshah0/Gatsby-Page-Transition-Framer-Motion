@@ -10,7 +10,7 @@ function Rotate() {
       x.set(window.scrollY)
       window.removeEventListener("scroll", () => {})
     })
-  }, [input])
+  }, [])
 
   return (
     <div>
