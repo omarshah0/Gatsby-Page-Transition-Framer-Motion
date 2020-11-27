@@ -1,6 +1,7 @@
 import React from "react"
 import Card from "../components/Card"
 import Rotate from "../components/Rotate"
+import "../components/layout.css"
 
 function InView() {
   return (
