@@ -1,7 +1,10 @@
-/**
- * Implement Gatsby's SSR (Server Side Rendering) APIs in this file.
- *
- * See: https://www.gatsbyjs.com/docs/ssr-apis/
- */
+import React from "react"
+import { AnimatePresence } from "framer-motion"
 
-// You can delete this file if you're not using it
+export const wrapPageElement = ({ element, props }) => {
+  return (
+    <AnimatePresence exitBeforeEnter {...props}>
+      {element}
+    </AnimatePresence>
+  )
+}
