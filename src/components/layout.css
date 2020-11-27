@@ -4,9 +4,9 @@
   box-sizing: border-box;
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   display: none;
-}
+} */
 
 body {
   background-color: #f4f3f7;
@@ -87,4 +87,87 @@ a {
   .product > div {
     flex: none;
   }
+}
+
+.in-sec {
+  height: 100vh;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec1 {
+  background: #654ea3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #654ea3,
+    #eaafc8
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #654ea3,
+    #eaafc8
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.sec2 {
+  background: #ff416c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ff4b2b,
+    #ff416c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ff4b2b,
+    #ff416c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.sec3 {
+  background: #a8ff78; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #78ffd6,
+    #a8ff78
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #78ffd6,
+    #a8ff78
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.sec4 {
+  background: #fdc830; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f37335,
+    #fdc830
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f37335,
+    #fdc830
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.box {
+  border-radius: 40px;
+  width: 250px;
+  height: 250px;
+  background: #654ea3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #654ea3,
+    #eaafc8
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #654ea3,
+    #eaafc8
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }

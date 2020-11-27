@@ -37,7 +37,11 @@ const IndexPage = ({ location }) => {
         animate="enter"
         exit="exit"
       >
-        <p>Select a Protein</p>
+        <Link to="/inview">
+          <p style={{ border: "2px solid black", padding: "0.5rem" }}>
+            Motion View Example
+          </p>
+        </Link>
         <Link to="/product-1">
           <div className="card">
             <p>Protein</p>
